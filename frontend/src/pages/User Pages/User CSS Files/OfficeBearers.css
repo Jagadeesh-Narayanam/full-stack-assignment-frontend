@@ -1,0 +1,23 @@
+.office-bearers{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /* justify-content: center; */
+}
+.office-bearer{
+    font-size:large;
+    font-weight: 500;
+    margin: 1rem;
+    width: 30%;
+    max-width:30%;
+    background-color:bisque;
+    border-radius: 10px;
+}
+.office-bearer td{
+    padding:1rem;
+}
+.office-bearer:hover{
+    background-color: aquamarine;
+}
