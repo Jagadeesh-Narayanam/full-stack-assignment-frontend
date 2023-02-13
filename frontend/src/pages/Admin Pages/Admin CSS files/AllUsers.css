@@ -1,0 +1,26 @@
+.table th{
+    color:red;
+}
+.table td{
+    color:blue;
+}
+.table button{
+    width: fit-content;
+    margin:0 2px;
+}
+.active{
+    border-radius: 6px;
+    background-color: rgb(57, 230, 51);
+}
+
+.active td{
+    color:black;
+
+}
+.blocked{
+    background-color: rgb(218, 95, 95);
+    border-radius: 6px;
+}
+.blocked td{
+    color: black;
+}

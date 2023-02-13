@@ -1,0 +1,23 @@
+.registration-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin-right:auto;
+    margin-left: auto;
+    
+}
+.registration-form input{
+    margin-bottom: 1rem;
+}
+.registration-form button{
+    width: 50%;
+    margin:0 auto;
+    background-color: rgb(102, 179, 243);
+    padding:0.5rem;
+    border-radius: 5px;
+}
+.error{
+    background-color: red;
+    color:white;
+}
